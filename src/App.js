@@ -1,10 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Technologies from "./Technologies.js";
+import Header from "./Header.js";
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>Hellow, it's my firsy page in react</h1>
+    <div>
+      <Header />
+      <Technologies />
     </div>
   );
 };
